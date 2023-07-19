@@ -29,7 +29,7 @@ defmodule PhoenixPubSubKafka.Mixfile do
 
   defp deps do
     [
-      {:phoenix_pubsub, "~> 1.0"},
+      {:phoenix_pubsub, "~> 1.1"},
       {:kafka_ex, "~> 0.8.1"},
       {:credo, "~> 0.8.10", only: [:dev, :test]},
       {:dialyxir, "~> 1.0.0-rc.7", only: [:dev, :test], runtime: false},
